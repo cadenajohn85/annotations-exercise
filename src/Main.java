@@ -1,4 +1,5 @@
 public class Main {
+    @SuppressWarnings("deprecation") // Why does "deprecation" work, but not "all"?
     public static void main(String[] args) {
         Author author = new Author("Sandi", "Metz");
 
